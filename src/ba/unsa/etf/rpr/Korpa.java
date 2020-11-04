@@ -15,7 +15,7 @@ public class Korpa {
     }
 
     public Artikl[] getArtikli() {
-        return (Artikl[])artikli.toArray();
+        return artikli.toArray(new Artikl[50]);
     }
 
 

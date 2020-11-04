@@ -15,7 +15,7 @@ public class Supermarket {
     }
 
     public Artikl[] getArtikli() {
-        return (Artikl[])artikli.toArray();
+        return artikli.toArray(new Artikl[1000]);
     }
 
     public Artikl izbaciArtiklSaKodom(String kod) {
